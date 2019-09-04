@@ -1,7 +1,5 @@
-
 const clock = document.querySelector('.clock');
 const dateNow = document.querySelector('.dateNow')
-
 
 const tick = () => {
 
@@ -16,8 +14,7 @@ const tick = () => {
     const html = `
         <span>${h}</span> :
         <span>${m}</span> :
-        <span>${s}</span> 
-         
+        <span>${s}</span>         
     `;
 
     clock.innerHTML = html;
