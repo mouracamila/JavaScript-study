@@ -1,0 +1,36 @@
+body{
+    background: #333;
+}
+.clock{
+    font-size: 5em;
+    text-align: center;
+    margin: 200px auto;
+    color: yellow;
+    font-family: arial;
+}
+.clock span{
+    padding: 20px;
+    background: #444;
+}
+.dateNow{
+    font-size: 1em;
+    text-align: center;
+    margin: 50px auto;
+    color: yellow;
+    font-family: arial;
+}
+.dateNow span{
+    padding: 20px;
+    background: #444;
+}
+.timeZone{
+    font-size: 3em;
+    text-align: center;
+    margin: 20px auto;
+    color: yellow;
+    font-family: arial;
+}
+.timeZone span{
+    padding: 10px;
+    background: #444;
+}

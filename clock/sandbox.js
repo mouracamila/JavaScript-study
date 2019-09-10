@@ -1,5 +1,5 @@
 const clock = document.querySelector('.clock');
-const dateNow = document.querySelector('.dateNow')
+const dateNow = document.querySelector('.dateNow');
 
 const tick = () => {
 
@@ -19,7 +19,6 @@ const tick = () => {
 
     clock.innerHTML = html;
     dateNow.innerHTML = `<span>${date}</span>`;
-
 };
 
 setInterval(tick, 1000);
